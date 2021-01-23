@@ -81,3 +81,15 @@ nav {
 .c12 {
   background-color: #8eb8ff;
 }
+
+footer {
+  width: 100%;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  background-color: #6c6b6b;
+}
+
+.footer-text {
+  color: #ffffff;
+}
