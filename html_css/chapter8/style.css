@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #6c6b6b;;
 }
 
 main{
@@ -14,6 +15,43 @@ main{
 }
 
 .list-text{
-  padding: 20px 20px 0 20px;
+  padding: 20px 0 20px 20px;
 }
 
+.list-text:nth-child(odd){
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.box-cover{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.box{
+  width: 30%;
+  height: 200px;
+  background-color: gold;
+  margin:0 5% 40px 0;
+
+}
+
+.box:nth-child(3),
+.box:nth-child(6){
+  margin:0 0 40px 0;
+}
+
+.box:nth-child(9){
+  margin:0
+}
+
+.box:nth-child(7),
+.box:nth-child(8){
+  margin:0 5% 0 0;
+}
+
+.box:nth-child(1),
+.box:nth-child(5),
+.box:nth-child(9){
+  background-color: orange;
+}
